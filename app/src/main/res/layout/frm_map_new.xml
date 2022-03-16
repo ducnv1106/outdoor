@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clTopNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/glStartTopNavButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.032" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/glEndTopNavButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.968" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/glTopOfTopNavButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.320875" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/glTopOfTopNavTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.375" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btnTopNavButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/glStartTopNavButton"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_close_push_post" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTopNavTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:text="@string/str_title_toolbar_select_places_new"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvOver"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:text="@string/lblOver"
+            android:textColor="@color/colorMain2"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/glEndTopNavButton"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clMap"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/clTopNav">
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/glStartMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.032" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/glEndMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.968" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_marginTop="@dimen/_5sdp"
+            android:id="@+id/gl50Map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5" />
+        <ImageView
+            android:src="@drawable/ic_marker"
+            android:id="@+id/imgMap"
+            app:layout_constraintTop_toTopOf="@id/tvNameLocation"
+            app:layout_constraintBottom_toBottomOf="@id/tvNameLocation"
+            app:layout_constraintStart_toStartOf="@id/glStartMap"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+        <TextView
+            android:id="@+id/tvNameLocation"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            app:layout_constraintStart_toEndOf="@id/imgMap"
+            app:layout_constraintEnd_toEndOf="@id/glEndMap"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/colorBlack2"
+            android:textSize="@dimen/_11sdp"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <LinearLayout
+            android:id="@+id/clSpinnerProvince"
+            app:layout_constraintTop_toBottomOf="@+id/imgMap"
+            app:layout_constraintStart_toStartOf="@+id/imgMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/spinner_style">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:dropDownVerticalOffset="@dimen/_65sdp"
+            android:id="@+id/spnProvince"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/clSpinnerDistrict"
+            app:layout_constraintTop_toBottomOf="@+id/imgMap"
+            app:layout_constraintStart_toEndOf="@+id/clSpinnerProvince"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/spinner_style">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:dropDownVerticalOffset="@dimen/_65sdp"
+            android:id="@+id/spnDistrict"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/clSpinnerCommune"
+            app:layout_constraintTop_toBottomOf="@+id/clSpinnerProvince"
+            app:layout_constraintStart_toStartOf="@+id/imgMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/spinner_style">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:dropDownVerticalOffset="@dimen/_65sdp"
+            android:id="@+id/spnCommune"/>
+        </LinearLayout>
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintStart_toStartOf="@id/glStartMap"
+            app:layout_constraintEnd_toEndOf="@id/glEndMap"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/clSpinnerCommune" />
+
+        <ImageView
+            android:id="@+id/imgMaker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_marker"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/gl50Map"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/rootBottom"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/clTopNav">
+
+
+        <FrameLayout
+            android:id="@+id/bottom_sheet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            app:behavior_defaultState="expanded"
+            app:behavior_peekHeight="0dp"
+            app:layout_behavior=".ui.widgets.anchorbottomsheet.AnchorBottomSheetBehavior">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/glStartContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.032" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/glEndContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.968" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/edtLocation"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:background="@drawable/bg_edt_title_push_post"
+                    android:ellipsize="end"
+                    android:gravity="start|center"
+                    android:hint="@string/str_enter_location"
+                    android:imeOptions="actionSearch"
+                    android:inputType="textFilter"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:singleLine="true"
+                    android:textSize="@dimen/_11sdp"
+                    app:layout_constraintEnd_toEndOf="@id/glEndContent"
+                    app:layout_constraintStart_toStartOf="@id/glStartContent"
+                    app:layout_constraintTop_toTopOf="parent" />
+                <ImageView
+                    android:id="@+id/img_search"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    app:layout_constraintTop_toTopOf="@id/edtLocation"
+                    app:layout_constraintBottom_toBottomOf="@id/edtLocation"
+                    app:layout_constraintEnd_toEndOf="@id/edtLocation"
+                    android:src="@drawable/bg_ic_search_home_selector"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/tvNoData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:text="@string/str_NoSearchData"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edtLocation" />
+
+                <com.facebook.shimmer.ShimmerFrameLayout
+                    android:id="@+id/shimmerFrameLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@id/glEndContent"
+                    app:layout_constraintStart_toStartOf="@id/glStartContent"
+                    app:layout_constraintTop_toBottomOf="@id/tvNoData"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <brite.outdoor.ui.widgets.CustomShimmerPlaceholderLocationOrUtensil
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                        <brite.outdoor.ui.widgets.CustomShimmerPlaceholderLocationOrUtensil
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                        <brite.outdoor.ui.widgets.CustomShimmerPlaceholderLocationOrUtensil
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                        <brite.outdoor.ui.widgets.CustomShimmerPlaceholderLocationOrUtensil
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </com.facebook.shimmer.ShimmerFrameLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rcLocation"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:orientation="vertical"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@id/glEndContent"
+                    app:layout_constraintStart_toStartOf="@id/glStartContent"
+                    app:layout_constraintTop_toBottomOf="@id/tvNoData" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

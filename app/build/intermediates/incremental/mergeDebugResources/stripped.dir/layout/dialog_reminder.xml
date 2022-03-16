@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                            
+    
+                                          
+                 
+                             
+                                                               
+           
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/dialog_reminder_0" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clTopNav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@color/colorWhite"
+            android:elevation="6dp">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/glStartTopNavButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.032" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/glEndTopNavButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.968" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/glTopOfTopNavButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.320875" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/glTopOfTopNavTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.375" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvTopNavTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="@string/str_make_a_plan"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvOver"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="@string/lblOver"
+                android:textColor="@color/colorMain2"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/glEndTopNavButton"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <brite.outdoor.ui.widgets.CustomImageButton
+                android:id="@+id/imgBack"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@id/glStartTopNavButton"
+                android:src="@drawable/ic_back_question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/clTopNav">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/glStartContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.032" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/glEndContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.968" />
+
+            <TextView
+                android:id="@+id/tvContent"
+                android:tag="binding_1"           
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/_8sdp"
+                android:paddingBottom="@dimen/_8sdp"
+                android:textColor="@color/colorBlack2"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@id/glEndContent"
+                app:layout_constraintStart_toStartOf="@id/glStartContent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/viewLine1"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:background="@color/grey_100"
+                app:layout_constraintEnd_toEndOf="@id/glEndContent"
+                app:layout_constraintStart_toStartOf="@id/glStartContent"
+                app:layout_constraintTop_toBottomOf="@id/tvContent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clSwitchCompat"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                app:layout_constraintEnd_toEndOf="@id/glEndContent"
+                app:layout_constraintStart_toStartOf="@id/glStartContent"
+                app:layout_constraintTop_toBottomOf="@id/viewLine1">
+
+                <TextView
+                    android:id="@+id/tvSwitchCompat"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:text="@string/str_remind_me_on"
+                    android:textColor="@color/grey_800"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/switchCompat"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switchCompat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:tag="binding_2"                       
+                    android:thumb="@drawable/thumb_selector"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:track="@drawable/track_selector" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <View
+                android:id="@+id/viewLine2"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:background="@color/grey_100"
+                app:layout_constraintEnd_toEndOf="@id/glEndContent"
+                app:layout_constraintStart_toStartOf="@id/glStartContent"
+                app:layout_constraintTop_toBottomOf="@id/clSwitchCompat" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clReminder"
+                android:tag="binding_3"                                                    
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="@id/glEndContent"
+                app:layout_constraintStart_toStartOf="@id/glStartContent"
+                app:layout_constraintTop_toBottomOf="@id/viewLine2">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/clDate"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/tvReminder"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:text="@string/str_remind"
+                        android:textColor="@color/grey_800"
+                        android:textSize="@dimen/_10sdp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                    <TextView
+                        android:id="@+id/tvTime"
+                        android:tag="binding_4"                   
+                        android:textColor="@color/grey_800"
+                        android:textSize="@dimen/_10sdp"
+                        app:layout_constraintEnd_toStartOf="@id/tvDate"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/tvDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:tag="binding_5"              
+                        android:textColor="@color/grey_800"
+                        android:textSize="@dimen/_10sdp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <View
+                    android:id="@+id/viewLine3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/grey_100"
+                    app:layout_constraintTop_toBottomOf="@id/clDate" />
+                <DatePicker
+                    android:id="@+id/datePicker"
+                    app:layout_constraintTop_toBottomOf="@id/viewLine3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:calendarViewShown="false"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:padding="-100dp"
+                    android:datePickerMode="spinner" />
+
+                <TimePicker
+                    app:layout_constraintTop_toBottomOf="@id/viewLine3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:id="@+id/time_picker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:calendarViewShown="false"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:padding="-100dp"
+                    android:timePickerMode="spinner"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <View
+                android:id="@+id/viewLine4"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:background="@color/grey_100"
+                app:layout_constraintEnd_toEndOf="@id/glEndContent"
+                app:layout_constraintStart_toStartOf="@id/glStartContent"
+                app:layout_constraintTop_toBottomOf="@id/clReminder" />
+            <TextView
+                android:id="@+id/tvNote"
+                android:textSize="@dimen/_10sdp"
+                android:textColor="@color/grey_800"
+                android:text="@string/str_note"
+                app:layout_constraintTop_toBottomOf="@id/viewLine4"
+                app:layout_constraintStart_toStartOf="@id/glStartContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/edtNote"
+                android:background="@null"
+                android:hint="@string/str_input_notes"
+                android:textSize="@dimen/_11sdp"
+                android:maxLines="5"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:layout_constraintEnd_toEndOf="@id/glEndContent"
+                app:layout_constraintStart_toStartOf="@id/glStartContent"
+                app:layout_constraintTop_toBottomOf="@id/tvNote"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:tag="binding_6"                       />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

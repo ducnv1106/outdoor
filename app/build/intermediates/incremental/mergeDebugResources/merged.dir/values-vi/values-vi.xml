@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="exo_controls_fastforward_by_amount_description">
+    <item quantity="one">Tua nhanh %d giây</item>
+    <item quantity="other">Tua nhanh %d giây</item>
+  </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+    <item quantity="one">Tua lại %d giây</item>
+    <item quantity="other">Tua lại %d giây</item>
+  </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d thông báo mới</item>
+    <item quantity="other">%d thông báo mới</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Chỉ đường về nhà"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Di chuyển lên"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Tùy chọn khác"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Xong"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Xem tất cả"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Chọn một ứng dụng"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"TẮT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"BẬT"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Tìm kiếm…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Xóa truy vấn"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Truy vấn tìm kiếm"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Tìm kiếm"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Gửi truy vấn"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Tìm kiếm bằng giọng nói"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Chia sẻ với"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Chia sẻ với <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Thu gọn"</string>
+    <string name="app_name">OutDoor</string>
+    <string name="bottomsheet_action_expand_halfway">Mở rộng một nửa</string>
+    <string name="character_counter_content_description">Đã nhập %1$d trong số %2$d ký tự</string>
+    <string name="character_counter_overflowed_content_description">Đã vượt quá giới hạn ký tự %1$d/%2$d</string>
+    <string name="clear_text_end_icon_content_description">Xóa văn bản</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">Truy cập &lt;b>facebook.com/device&lt;/b> và nhập mã được hiển thị bên trên.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">Lỗi không mong muốn khi tải hình ảnh xuống.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">Đăng nhập chế độ xem web yêu cầu quyền INTERNET</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">Lỗi AndroidManifest</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">Đã thích</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">Thích</string>
+    <string gender="unknown" name="com_facebook_loading">Đang tải…</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">Hủy</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">Đăng nhập</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Tiếp tục với Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Đăng nhập bằng Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">Đăng xuất</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">Đăng xuất</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">Đã đăng nhập với tên: %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Đã đăng nhập bằng Facebook</string>
+    <string gender="unknown" name="com_facebook_send_button_text">Gửi</string>
+    <string gender="unknown" name="com_facebook_share_button_text">Chia sẻ</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">Để kết nối tài khoản của bạn, hãy mở ứng dụng Facebook trên thiết bị di động và kiểm tra thông báo.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- HOẶC -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">Không phải bạn?</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">Tiếp tục dưới tên %1$s</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">Xác nhận đăng nhập</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">Bạn nắm quyền kiểm soát - chọn thông tin bạn muốn chia sẻ với ứng dụng.</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Bật"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không hoạt động nếu bạn không bật dịch vụ của Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Bật dịch vụ của Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Cài đặt"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy nếu không có dịch vụ của Google Play. Thiết bị của bạn bị thiếu dịch vụ này."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Cài đặt dịch vụ của Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Phạm vi cung cấp các dịch vụ của Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Lỗi dịch vụ của Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> đang gặp sự cố với các dịch vụ của Google Play. Hãy thử lại."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy nếu không có các dịch vụ của Google Play. Thiết bị của bạn không hỗ trợ các dịch vụ này."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Cập nhật"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy trừ khi bạn cập nhật Dịch vụ của Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Cập nhật dịch vụ của Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy nếu không có dịch vụ của Google Play. Dịch vụ này hiện đang cập nhật."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Cần phiên bản mới của dịch vụ Google Play. Dịch vụ sẽ sớm tự động cập nhật."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Mở trên điện thoại"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Đăng nhập"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Đăng nhập bằng Google"</string>
+    <string name="default_notification_channel_id">OutDoor</string>
+    <string name="error_icon_content_description">Lỗi</string>
+    <string name="exo_controls_cc_disabled_description">Bật phụ đề</string>
+    <string name="exo_controls_cc_enabled_description">Tắt phụ đề</string>
+    <string name="exo_controls_fastforward_description">Tua đi</string>
+    <string name="exo_controls_fullscreen_enter_description">Chuyển sang chế độ toàn màn hình</string>
+    <string name="exo_controls_fullscreen_exit_description">Thoát khỏi chế độ toàn màn hình</string>
+    <string name="exo_controls_hide">Ẩn các nút điều khiển trình phát</string>
+    <string name="exo_controls_next_description">Tiếp theo</string>
+    <string name="exo_controls_overflow_hide_description">Ẩn các tùy chọn cài đặt bổ sung</string>
+    <string name="exo_controls_overflow_show_description">Hiện các tùy chọn cài đặt bổ sung</string>
+    <string name="exo_controls_pause_description">Tạm dừng</string>
+    <string name="exo_controls_play_description">Phát</string>
+    <string name="exo_controls_playback_speed">Tốc độ</string>
+    <string name="exo_controls_playback_speed_normal">Bình thường</string>
+    <string name="exo_controls_previous_description">Trước</string>
+    <string name="exo_controls_repeat_all_description">Lặp lại tất cả</string>
+    <string name="exo_controls_repeat_off_description">Không lặp lại</string>
+    <string name="exo_controls_repeat_one_description">Lặp lại một</string>
+    <string name="exo_controls_rewind_description">Tua lại</string>
+    <string name="exo_controls_seek_bar_description">Tiến trình phát</string>
+    <string name="exo_controls_settings_description">Cài đặt</string>
+    <string name="exo_controls_show">Hiển thị các nút điều khiển trình phát</string>
+    <string name="exo_controls_shuffle_off_description">Chế độ trộn bài đang tắt</string>
+    <string name="exo_controls_shuffle_on_description">Chế độ trộn bài đang bật</string>
+    <string name="exo_controls_stop_description">Dừng</string>
+    <string name="exo_controls_vr_description">Chế độ thực tế ảo</string>
+    <string name="exo_download_completed">Đã hoàn tất tải xuống</string>
+    <string name="exo_download_description">Tải xuống</string>
+    <string name="exo_download_downloading">Đang tải xuống</string>
+    <string name="exo_download_failed">Không tải xuống được</string>
+    <string name="exo_download_notification_channel_name">Tài nguyên đã tải xuống</string>
+    <string name="exo_download_removing">Đang xóa các mục đã tải xuống</string>
+    <string name="exo_item_list">%1$s, %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Mb/giây</string>
+    <string name="exo_track_mono">Đơn âm</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Thay thế</string>
+    <string name="exo_track_role_closed_captions">Phụ đề</string>
+    <string name="exo_track_role_commentary">Bình luận</string>
+    <string name="exo_track_role_supplementary">Bổ sung</string>
+    <string name="exo_track_selection_auto">Tự động</string>
+    <string name="exo_track_selection_none">Không</string>
+    <string name="exo_track_selection_title_audio">Âm thanh</string>
+    <string name="exo_track_selection_title_text">Văn bản</string>
+    <string name="exo_track_selection_title_video">Video</string>
+    <string name="exo_track_stereo">Âm thanh nổi</string>
+    <string name="exo_track_surround">Âm thanh vòm</string>
+    <string name="exo_track_surround_5_point_1">Âm thanh vòm 5.1</string>
+    <string name="exo_track_surround_7_point_1">Âm thanh vòm 7.1</string>
+    <string name="exo_track_unknown">Không xác định</string>
+    <string name="exposed_dropdown_menu_content_description">Hiển thị menu thả xuống</string>
+    <string name="fcm_fallback_notification_channel_label">Khác</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="icon_content_description">Biểu tượng hộp thoại</string>
+    <string msgid="475402237100444685" name="installation_cancelled">"Đã hủy cài đặt."</string>
+    <string msgid="863287960437940689" name="installation_failed">"Không cài đặt được."</string>
+    <string msgid="5968445461040787716" name="installing_module">"Đang cài đặt mô-đun:"</string>
+    <string name="item_view_role_description">Thẻ</string>
+    <string name="label_ok">OK</string>
+    <string name="lalDeleteActivity">Xoá bài viết</string>
+    <string name="lbClose">Đóng</string>
+    <string name="lbCollapse">Thu gọn</string>
+    <string name="lbOke_dialog_exit">Đồng ý</string>
+    <string name="lbPolicy">Chính sách</string>
+    <string name="lbReportViolation">Báo cáo vi phạm</string>
+    <string name="lbSearchNoUtensil">Không tìm thấy dụng cụ</string>
+    <string name="lbTerm">Điều khoản</string>
+    <string name="lbTranslation">Ngôn ngữ</string>
+    <string name="lb_follow_search">Theo dõi</string>
+    <string name="lb_unfollow_search">Bỏ theo dõi</string>
+    <string name="lblAddComment">Thêm bình luận…</string>
+    <string name="lblAddPlace">Thêm địa điểm</string>
+    <string name="lblAgree">Đồng ý</string>
+    <string name="lblAnd">và</string>
+    <string name="lblArticlesSave">Bài viết đã lưu</string>
+    <string name="lblBadReport">Báo xấu</string>
+    <string name="lblBy">đăng bởi</string>
+    <string name="lblCancel">Hủy bỏ</string>
+    <string name="lblChangePosition">Thay đổi vị trí</string>
+    <string name="lblCommentVn">Bình luận</string>
+    <string name="lblDelete">Xóa</string>
+    <string name="lblDeleteActivity">Xoá bài viết</string>
+    <string name="lblDeleteQuestion">Xóa</string>
+    <string name="lblDeny">Bỏ qua</string>
+    <string name="lblEditPost">Sửa bài viết</string>
+    <string name="lblEditQuestion">Chỉnh sửa</string>
+    <string name="lblEditSuccess">Bài viết đã cập nhật!</string>
+    <string name="lblExit">Đăng xuất</string>
+    <string name="lblFocus">Tiêu điểm</string>
+    <string name="lblFollow">Theo dõi</string>
+    <string name="lblFollowers">Người theo dõi</string>
+    <string name="lblFollowing">Đang theo dõi</string>
+    <string name="lblGetNotification">Thông báo</string>
+    <string name="lblHideActivity">Ẩn bài viết</string>
+    <string name="lblHintContentIntroduce">Nội dung giới thiệu</string>
+    <string name="lblHintEdtShare">Nói gì đó về điều này…</string>
+    <string name="lblHotNews">Tin tức</string>
+    <string name="lblIntro">Hướng dẫn</string>
+    <string name="lblLike">Thích</string>
+    <string name="lblLocationSave">Địa điểm đã lưu</string>
+    <string name="lblLoginFacebook">Đăng nhập với Facebook</string>
+    <string name="lblLoginGoogle">Đăng nhập với Google</string>
+    <string name="lblNavSetting">Cài đặt</string>
+    <string name="lblNews">Tin mới</string>
+    <string name="lblNo">Không</string>
+    <string name="lblNoPlace">Tên địa điểm chưa đúng? Vui lòng sửa lại.</string>
+    <string name="lblOK">OK</string>
+    <string name="lblOver">Xong</string>
+    <string name="lblPostSuccess">Đăng bài viết thành công!</string>
+    <string name="lblPushPost">Đăng bài</string>
+    <string name="lblRegistration"><u>Đăng ký</u></string>
+    <string name="lblReply">Trả lời</string>
+    <string name="lblReviews">Trải nghiệm</string>
+    <string name="lblSaveCache">Lưu tạm</string>
+    <string name="lblSaved">Lưu lại</string>
+    <string name="lblSearchByLocation">Tìm theo địa điểm</string>
+    <string name="lblSearchByPerson">Tìm theo mọi người</string>
+    <string name="lblSearchByTool">Tìm theo dụng cụ</string>
+    <string name="lblSearchNoLocation">Không tìm thấy địa điểm của bạn.\nVui lòng tìm kiếm trên bản đồ!</string>
+    <string name="lblSearchWithLocateSuffixes"> Kết quả tìm kiếm cho \"Địa điểm\"</string>
+    <string name="lblSearchWithToolSuffixes">Kết quả tìm kiếm cho \"Dụng cụ\"</string>
+    <string name="lblSearchWithUserSuffixes">Kết quả tìm kiếm cho \"Bạn bè\"</string>
+    <string name="lblSeeMore">Xem thêm</string>
+    <string name="lblSeeMoreComment">Xem thêm nhiều bình luận</string>
+    <string name="lblSending">Đang gửi…</string>
+    <string name="lblSetting">CÀI ĐẶT</string>
+    <string name="lblShare">Chia sẻ</string>
+    <string name="lblShare2">CHIA SẺ</string>
+    <string name="lblShareToFacebook">Chia sẻ lên Facebook</string>
+    <string name="lblSkip">Bỏ qua</string>
+    <string name="lblStartPolicy">Bằng cách tiếp tục, bạn đồng ý với</string>
+    <string name="lblTOS">điều khoản sử dụng</string>
+    <string name="lblTextIntro1">Hãy cùng cho trẻ ra ngoài trải nghiệm Thiên nhiên , làm quen với các kỹ năng mềm và nâng cao sức khỏe</string>
+    <string name="lblTextIntro2">Bạn có thể đăng những bài review về địa điểm vui chơi ngoài trời mà mình đã đến bằng Hình Ảnh và Văn Bản hay kể cả là Dụng cụ mình đã sử dụng.</string>
+    <string name="lblTextIntro3">Bạn có thể search những địa điểm vui chơi ngoài thiên nhiên gần mình hoặc khắp nước Việt nam xinh đẹp này </string>
+    <string name="lblTextIntro4">Bạn có thể Lưu bài viết , giao lưu kết bạn bằng cách bấm Follow các Phụ huynh khác cũng như Thả tim hoặc Comment bài viết </string>
+    <string name="lblTextIntro5">Với mong muốn con phát triển toàn diện về Thể Chất và Tinh thần - các bậc phụ huynh hãy cùng chúng tôi chia sẻ và trải nghiệm</string>
+    <string name="lblTextIntro6">Camping không để lại rác - Hãy cùng OutDoor lan tỏa thông điệp này nhé! </string>
+    <string name="lblTextTitleIntro1">Trải nghiệm</string>
+    <string name="lblTextTitleIntro2">Chia sẻ</string>
+    <string name="lblTextTitleIntro3">Tìm kiếm</string>
+    <string name="lblTextTitleIntro4">Lưu giữ</string>
+    <string name="lblTextTitleIntro5">Đi nào!</string>
+    <string name="lblTextTitleIntro6">Bảo vệ môi trường</string>
+    <string name="lblTitleSearch">Tìm Kiếm</string>
+    <string name="lblUnFollow">Bỏ theo dõi</string>
+    <string name="lblUnSave">Bỏ lưu</string>
+    <string name="lblYes">Có</string>
+    <string name="lblYourWriting">Bài viết của bạn</string>
+    <string name="lbl_privacy_policy">chính sách bảo mật của chúng tôi</string>
+    <string name="material_clock_toggle_content_description">Chọn SA hoặc CH</string>
+    <string name="material_hour_selection">Chọn giờ</string>
+    <string name="material_hour_suffix">%1$s giờ</string>
+    <string name="material_minute_selection">Chọn phút</string>
+    <string name="material_minute_suffix">%1$s phút</string>
+    <string name="material_timepicker_am">SA</string>
+    <string name="material_timepicker_clock_mode_description">Chuyển sang chế độ đồng hồ để nhập thời gian.</string>
+    <string name="material_timepicker_hour">Giờ</string>
+    <string name="material_timepicker_minute">Phút</string>
+    <string name="material_timepicker_pm">CH</string>
+    <string name="material_timepicker_select_time">Chọn thời gian</string>
+    <string name="material_timepicker_text_input_mode_description">Chuyển sang chế độ nhập văn bản để nhập thời gian.</string>
+    <string name="message_no_permissions">Ứng dụng không thể hoạt động nếu không có quyền</string>
+    <string name="message_push_post_error">Bài viết vượt quá số lượng Media cho phép.</string>
+    <string name="msgConfirmAvatarNotNull">Ảnh đại diện không tồn tại. Chọn lại ảnh?</string>
+    <string name="msgConfirmChangeAvatar">Bạn có muốn thay đổi avatar hiện tại không?</string>
+    <string name="msgConfirmChangeLocation">Bạn có muốn thay đổi địa điểm hiện tại không?</string>
+    <string name="msgConfirmChangeUtensils">Bạn có muốn thay đổi dụng cụ hiện tại không?</string>
+    <string name="msgConfirmChooseImage">Bài viết không có ảnh đại diện sẽ không được đăng.\nBạn có muốn huỷ đăng bài không?</string>
+    <string name="msgConfirmDeleteComment">Bạn có muốn xóa bình luận không?</string>
+    <string name="msgConfirmDeletePost">Bạn có muốn xóa bài viết không?</string>
+    <string name="msgConfirmDeleteQuestion">Bạn có muốn xóa câu hỏi không?</string>
+    <string name="msgConfirmExit">Bạn có muốn thoát không?</string>
+    <string name="msgConfirmExitAvatar">Ảnh đại diện là bắt buộc\nBạn có muốn huỷ đăng bài không?</string>
+    <string name="msgConfirmExitPost">Nếu bỏ bây giờ, bạn sẽ mất bài viết này.</string>
+    <string name="msgConfirmExitUnbook">Bạn có muốn hủy bài viết đã lưu không?</string>
+    <string name="msgConfirmFileNotExist">Ảnh được chọn không còn tồn tại!</string>
+    <string name="msgConfirmGoToScreenMain">Bạn có muốn quay trở lại màn chính không?</string>
+    <string name="msgConfirmLogout">Bạn có muốn đăng xuất không?</string>
+    <string name="msgConfirmResetPost">Bạn có muốn tiếp tục chỉnh sửa bài viết không?</string>
+    <string name="msgDeleteComment">Xóa bình luận</string>
+    <string name="msgDeletePost">Xóa bài viết</string>
+    <string name="msgDeleteQuestion">Xóa câu hỏi</string>
+    <string name="msgNotificationTurnOn">Vui lòng thay đổi cài đặt thông báo trong cài đặt thiết bị đầu cuối.</string>
+    <string name="msgPostNoLongerExists">Không có dữ liệu.</string>
+    <string name="mtrl_badge_numberless_content_description">Thông báo mới</string>
+    <string name="mtrl_chip_close_icon_content_description">Xóa %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Hơn %1$d thông báo mới</string>
+    <string name="mtrl_picker_a11y_next_month">Chuyển sang tháng tiếp theo</string>
+    <string name="mtrl_picker_a11y_prev_month">Chuyển về tháng trước</string>
+    <string name="mtrl_picker_announce_current_selection">Lựa chọn hiện tại: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Chọn ngày</string>
+    <string name="mtrl_picker_date_header_unselected">Ngày đã chọn</string>
+    <string name="mtrl_picker_day_of_week_column_header">Cột ngày: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Định dạng không hợp lệ.</string>
+    <string name="mtrl_picker_invalid_format_example">Ví dụ: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Sử dụng: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Phạm vi không hợp lệ.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Chuyển tới năm %1$s</string>
+    <string name="mtrl_picker_out_of_range">Nằm ngoài phạm vi: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Ngày bắt đầu – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Ngày kết thúc</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Chọn dải ô</string>
+    <string name="mtrl_picker_range_header_unselected">Ngày bắt đầu – Ngày kết thúc</string>
+    <string name="mtrl_picker_save">Lưu</string>
+    <string name="mtrl_picker_text_input_date_hint">Ngày</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Ngày kết thúc</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Ngày bắt đầu</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Chuyển sang chế độ nhập lịch</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Nhấn để chuyển sang chế độ chọn một ngày</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Chuyển sang chế độ nhập văn bản</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Nhấn để chuyển sang chế độ chọn một năm</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Di chuyển lên"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Mở ngăn điều hướng"</string>
+    <string name="no_internet_connection">Thiết bị của bạn đang mất kết nối hoặc không thể truy cập internet. Vui lòng kiểm tra lại.</string>
+    <string msgid="4702104660890557116" name="ok">"OK"</string>
+    <string name="password_toggle_content_description">Hiển thị mật khẩu</string>
+    <string msgid="8366783942222789124" name="progress">"Tiến trình:"</string>
+    <string name="reminder_notification_channel_description">User reminder</string>
+    <string name="reminder_notification_channel_id" translatable="false">reminder_channel</string>
+    <string name="reminder_notification_channel_name" translatable="true">Reminder</string>
+    <string msgid="1065327189183624288" name="retry">"Thử lại"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Tìm kiếm"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="str_NoSearchData">Không có dữ liệu cần tìm</string>
+    <string name="str_add_image_item_push_post">Thêm ảnh / video</string>
+    <string name="str_avatar_post_required">Ảnh đại diện bài viết (bắt buộc)</string>
+    <string name="str_cancel_bottomsheet">Hủy</string>
+    <string name="str_choose_place">Chọn địa điểm</string>
+    <string name="str_city">Tỉnh/Thành Phố</string>
+    <string name="str_close">Xong</string>
+    <string name="str_close_dialog_notify">Đóng</string>
+    <string name="str_comment_count"> bình luận</string>
+    <string name="str_content1_frm_report">Tôi không quan tâm tới bài viết này</string>
+    <string name="str_content2_frm_report">Nội dung bài viết đáng nghi ngờ hoặc không hữu ích</string>
+    <string name="str_content3_frm_report">Có chứa ảnh hoặc video có nội dung nhạy cảm</string>
+    <string name="str_content4_frm_report">Nội dung không tốt hoặc gây hại cho người đọc</string>
+    <string name="str_content5_frm_report">Nội dung bài viết nói về việc tự làm hại bản thân hoặc tự sát</string>
+    <string name="str_create_content"> và nội dung bài viết</string>
+    <string name="str_create_title"> tiêu đề</string>
+    <string name="str_day_item_news">ngày</string>
+    <string name="str_delete_post">Xóa bài đăng thành công!</string>
+    <string name="str_discard_post">Bỏ bài viết</string>
+    <string name="str_district">Quận/Huyện</string>
+    <string name="str_edit_plan">Sửa kế hoạch</string>
+    <string name="str_edit_question">Chỉnh sửa câu hỏi</string>
+    <string name="str_enter_location">Nhập vị trí …</string>
+    <string name="str_enter_your_question">Nhập câu hỏi của bạn…</string>
+    <string name="str_follow">Bạn đã theo dõi</string>
+    <string name="str_frequent_question">Câu hỏi thường gặp</string>
+    <string name="str_frm_detail_comment">Bình luận</string>
+    <string name="str_frm_detail_like">Thích</string>
+    <string name="str_frm_detail_share">Chia sẻ</string>
+    <string name="str_general_question">Câu hỏi chung</string>
+    <string name="str_header_frm_report">Giúp chúng tôi vấn đề. Điều gì đang xảy ra với Outdoor này?</string>
+    <string name="str_hide_post">Ẩn bài đăng thành công!</string>
+    <string name="str_hint_content_item_push_post">Hãy nói về những cảm nhận của bạn nhé 😊</string>
+    <string name="str_hint_content_item_push_post_block2">Let\'s talk more 😊</string>
+    <string name="str_hint_described">Mô tả</string>
+    <string name="str_hint_name_location">Tên địa điểm</string>
+    <string name="str_hint_search">Nhập từ khóa…</string>
+    <string name="str_hint_search_friend">Tìm bạn bè</string>
+    <string name="str_hint_search_location">Tìm địa điểm</string>
+    <string name="str_hint_search_utensil">Tìm dụng cụ</string>
+    <string name="str_hint_search_view">Tìm kiếm</string>
+    <string name="str_hint_select_location">Chọn địa điểm</string>
+    <string name="str_hint_select_untisil">Chọn dụng cụ</string>
+    <string name="str_hint_title_post_frm_push_post">Bạn muốn nói về chủ đề gì?</string>
+    <string name="str_hours_item_news">giờ</string>
+    <string name="str_input_notes">Nhập ghi chú</string>
+    <string name="str_invalid_time">Thời gian không hợp lệ</string>
+    <string name="str_keep_editing">Tiếp tục chỉnh sửa</string>
+    <string name="str_language_english">Tiếng Anh</string>
+    <string name="str_language_vietnam">Tiếng Việt</string>
+    <string name="str_lear_more_frm_report"><font color="#C120B6FA">Tìm hiểu thêm</font> về việc báo cáo vi phạm các quy tắc của chúng tôi </string>
+    <string name="str_like_count"> lượt thích</string>
+    <string name="str_list">Danh sách</string>
+    <string name="str_make_a_plan">Lập kế hoạch</string>
+    <string name="str_minutes_item_news">phút</string>
+    <string name="str_month1">Tháng 1</string>
+    <string name="str_month10">Tháng 10</string>
+    <string name="str_month11">Tháng 11</string>
+    <string name="str_month12">Tháng 12</string>
+    <string name="str_month2">Tháng 2</string>
+    <string name="str_month3">Tháng 3</string>
+    <string name="str_month4">Tháng 4</string>
+    <string name="str_month5">Tháng 5</string>
+    <string name="str_month6">Tháng 6</string>
+    <string name="str_month7">Tháng 7</string>
+    <string name="str_month8">Tháng 8</string>
+    <string name="str_month9">Tháng 9</string>
+    <string name="str_no_internet_retry">Thử lại</string>
+    <string name="str_no_memory_assess">Không có quyền truy cập bộ nhớ!</string>
+    <string name="str_note">Ghi chú</string>
+    <string name="str_notification_comment"><font color="#323131">đã trả lời bình luận của bạn</font></string>
+    <string name="str_notification_follow"><font color="#323131">đã theo dõi bạn</font></string>
+    <string name="str_notification_new_post"><font color="#323131">đã đăng bài viết mới</font></string>
+    <string name="str_notification_question"><font color="#323131">đã trả lời câu hỏi của bạn</font></string>
+    <string name="str_picnic_plan">Kế hoạch Picnic</string>
+    <string name="str_place"><u><font color="#F97165">Thêm địa điểm</font></u></string>
+    <string name="str_popup_location">Địa điểm</string>
+    <string name="str_popup_utensils">Dụng cụ</string>
+    <string name="str_post_frm_push_post">Đăng</string>
+    <string name="str_question_saved">Câu hỏi đã lưu</string>
+    <string name="str_remind">Lời nhắc</string>
+    <string name="str_remind_me_on">Nhắc tôi vào ngày</string>
+    <string name="str_report_post">Cảm ơn bạn đã cho chúng tôi biết.\nNếu chúng tôi phát hiện rằng tài khoản này vi phạm điều khoản sử dụng của Outdoor, chúng tôi sẽ thực hiện hành động tương thích đối với tài khoản đó.</string>
+    <string name="str_save_draft">Lưu bản nháp</string>
+    <string name="str_save_post_success">Bạn đã lưu thành công!</string>
+    <string name="str_seconds_item_news">giây</string>
+    <string name="str_share_count"> chia sẻ</string>
+    <string name="str_sharefb_error">Bạn chia sẻ bài viết thất bại!</string>
+    <string name="str_sharefb_success">Bạn chia sẻ bài viết thành công!</string>
+    <string name="str_tile_frmListPeople_likes">LƯỢT THÍCH</string>
+    <string name="str_title_confir_exit_post">Lưu bài viết dưới dạng bản nháp?</string>
+    <string name="str_title_frmListPeople_follow">Đang theo dõi</string>
+    <string name="str_title_frmListPeople_followers">Người theo dõi</string>
+    <string name="str_title_frm_report">Nội dung báo cáo</string>
+    <string name="str_title_toolbar_listpostlocation">BÀI ĐĂNG</string>
+    <string name="str_title_toolbar_notification">Thông báo</string>
+    <string name="str_title_toolbar_select_image">Chọn ảnh</string>
+    <string name="str_title_toolbar_select_places">THÊM ĐỊA ĐIỂM</string>
+    <string name="str_title_toolbar_select_places_new">Vị trí</string>
+    <string name="str_title_toolbar_select_utensils">THÊM DỤNG CỤ</string>
+    <string name="str_toolbar_frm_push_post">Tạo bài viết</string>
+    <string name="str_tools"><u><font color="#F97165">Thêm dụng cụ</font></u></string>
+    <string name="str_total_image_selected">Số lượng ảnh đã chọn: </string>
+    <string name="str_total_media_selected">Số lượng ảnh và video tối đa có thể chọn: 10</string>
+    <string name="str_total_result">Tổng: </string>
+    <string name="str_total_video_selected">Số lượng video đã chọn: </string>
+    <string name="str_tvSuggest">Tên địa điểm chưa đúng? Vui lòng sửa lại.</string>
+    <string name="str_un_bookmark">Đã xóa dấu trang thành công!</string>
+    <string name="str_un_follow">Bạn đã bỏ theo dõi</string>
+    <string name="str_upload_photos">Tải ảnh lên</string>
+    <string name="str_you_create_avatar">Bạn chưa chọn ảnh đại diện bài viết</string>
+    <string name="str_you_create_content">Bạn chưa nhập nội dung bài viết</string>
+    <string name="str_you_create_location">Bạn chưa chọn địa điểm bài viết</string>
+    <string name="str_you_create_title">Bạn chưa nhập tiêu đề bài viết</string>
+    <string name="str_you_create_utensil">Bạn chưa chọn dụng cụ bài viết</string>
+    <string name="str_ưard">Phường/Xã</string>
+    <string name="titleConfirm">Xác nhận</string>
+    <string name="titlePostNoLongerExists">Lỗi</string>
+</resources>

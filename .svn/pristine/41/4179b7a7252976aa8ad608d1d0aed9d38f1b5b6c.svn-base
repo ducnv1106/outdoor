@@ -1,0 +1,34 @@
+{
+  "project_info": {
+    "project_number": "150220538570",
+    "firebase_url": "https://fir-first-d34ce.firebaseio.com",
+    "project_id": "fir-first-d34ce",
+    "storage_bucket": "fir-first-d34ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150220538570:android:5bbe45c304122089c7ea33",
+        "android_client_info": {
+          "package_name": "brite.outdoor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150220538570-div121ba1jhnfopopkf0tpcqdi6pisfs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "brite.outdoor",
+            "certificate_hash": "5d67a10bd4b7f25df77e235191a955a61e84f9eb"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAZonbatcDHUNmhEqCwB8IpsKmn3V2mmA"
+        }
+      ]
+    }
+  ],
+  "configuration_version": "1"
+}

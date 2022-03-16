@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frmRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.FrmPushPosts">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glStartContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.032" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glEndContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.968" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clTopNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:elevation="6dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/glEndToolBarContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.968" />
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/glStartToolBarContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.032" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/glStartToolBarContent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_close_push_post" />
+
+        <brite.outdoor.utils.AutoShrinkTextView
+            android:id="@+id/tvTopNavTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/lblEditPost"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tvOver"
+            app:layout_constraintStart_toEndOf="@+id/btnBack"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <brite.outdoor.utils.AutoShrinkTextView
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/glEndToolBarContent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/tvOver"
+            android:text="Xong"
+            android:textColor="@drawable/bg_text_over_avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtContent"
+        android:layout_width="0dp"
+        app:layout_constraintStart_toStartOf="@id/glStartContent"
+        app:layout_constraintEnd_toEndOf="@id/glEndContent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="top|start"
+        android:hint="@string/str_hint_content_item_push_post"
+        android:paddingBottom="@dimen/_7sdp"
+        android:paddingTop="@dimen/_7sdp"
+        android:paddingEnd="@dimen/_7sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:privateImeOptions = "nm"
+        android:inputType="textNoSuggestions|textMultiLine"
+        app:layout_constraintTop_toBottomOf="@id/clTopNav" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcContentImage"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/edtContent"
+        app:layout_constraintStart_toStartOf="@id/glStartContent"
+        app:layout_constraintEnd_toEndOf="@id/glEndContent"
+        app:layout_constraintBottom_toTopOf="@id/rlLocation"
+        android:layout_width="0dp"
+        android:layout_height="0dp"/>
+    <LinearLayout
+        android:id="@+id/rlLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F2F2F2"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        app:layout_constraintBottom_toTopOf="@id/keyboard">
+        <ImageView
+            android:id="@+id/imgBlock"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/ic_image_push_post" />
+
+    </LinearLayout>
+
+    <brite.outdoor.ui.widgets.SwipeToHideLayout
+        android:id="@+id/keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorMain2"
+        app:direction="bottom"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

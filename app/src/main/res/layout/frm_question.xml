@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="mQuestionViewModel"
+            type="brite.outdoor.viewmodel.QuestionViewModel" />
+    </data>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/rootView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:clickable="true"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clTopNav"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:elevation="6dp">
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/glStartTopNavButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.032" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/glEndTopNavButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.968" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/glEndToolBarContent"
+                    app:layout_constraintGuide_percent="0.968"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+                <brite.outdoor.ui.widgets.CustomImageButton
+                    android:id="@+id/imgBack"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@id/glStartTopNavButton"
+                    android:src="@drawable/ic_back_question"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <brite.outdoor.utils.AutoShrinkTextView
+                    android:id="@+id/tvTopNavTitle"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/str_frequent_question"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/glStartContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.032" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/glEndContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.968" />
+            <FrameLayout
+                android:layout_marginTop="@dimen/_20sdp"
+                android:id="@+id/fmTabLayout"
+                app:layout_constraintTop_toBottomOf="@id/clTopNav"
+                app:layout_constraintStart_toStartOf="@id/glStartContent"
+                app:layout_constraintEnd_toEndOf="@id/glEndContent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:clipToPadding="false"
+                tools:ignore="MissingConstraints">
+
+                <View
+                    android:id="@+id/indicator2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_view_indicator_question" />
+
+                <View
+                    android:id="@+id/indicator"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/gradient_bg_question_left" />
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/tab"
+                    style="@style/TabLayoutQuestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/tab_bg"
+                    app:tabGravity="fill"
+                    app:tabIndicator="@null"
+                    app:tabIndicatorColor="@null"
+                    app:tabMode="fixed"
+                    app:tabRippleColor="@null"
+                    app:tabInlineLabel="true"
+                    app:tabPaddingStart="10dp"/>
+
+
+            </FrameLayout>
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/view_pager"
+                android:paddingTop="@dimen/_20sdp"
+                app:layout_constraintTop_toBottomOf="@id/fmTabLayout"
+                app:layout_constraintBottom_toTopOf="@id/edtContent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+            <EditText
+                android:layout_marginTop="@dimen/_10sdp"
+                android:id="@+id/edtContent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/bg_edt_title_push_post"
+                android:hint="@string/str_enter_your_question"
+                android:maxLength="250"
+                android:maxLines="10"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:text="@={mQuestionViewModel.contentPost}"
+                app:limitLineEdt="@{mQuestionViewModel.contentPost}"
+                android:textSize="@dimen/_11sdp"
+                android:inputType="textNoSuggestions|textMultiLine"
+                android:privateImeOptions="nm"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/layoutSend"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/layoutSend"
+                android:background="@color/colorWhite"
+                app:layout_constraintEnd_toEndOf="@id/glEndContent"
+                app:layout_constraintBottom_toBottomOf="@id/edtContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:lengthText="@{mQuestionViewModel.lengthContent}"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:textSize="@dimen/_11sdp"
+                    android:textColor="@color/grey_400"
+                    app:layout_constraintBottom_toTopOf="@id/imgSend"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:id="@+id/imgSend"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:setSelectedImageViewSend="@{mQuestionViewModel.isSelectedSend}"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <FrameLayout
+            android:id="@+id/flContainerQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+</layout>

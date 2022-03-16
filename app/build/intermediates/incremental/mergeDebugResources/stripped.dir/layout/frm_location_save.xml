@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                            
+    
+                 
+                             
+                                                                   
+           
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/frm_location_save_0" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <androidx.appcompat.widget.Toolbar
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_collapseMode="pin"
+            android:background="@color/colorMain2"
+            app:layout_scrollFlags="scroll|enterAlways">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clToolbar"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <brite.outdoor.ui.widgets.CustomImageButton
+                    android:id="@+id/btnBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_back_my_page_ver2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+                <brite.outdoor.ui.widgets.CustomImageButton
+                    android:id="@+id/icFilter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:src="@drawable/ic_filter_my_page"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clFilter"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+                <AutoCompleteTextView
+                    android:id="@+id/edtFilter"
+                    android:inputType="textFilter"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:singleLine="true"
+                    android:textSize="@dimen/_11sdp"
+                    android:imeOptions="actionDone"
+                    android:hint="@string/str_enter_location"
+                    android:textColor="@color/colorWhite"
+                    android:textColorHint="@color/white"
+                    android:background="@drawable/bg_edt_title_push_post"
+                    android:privateImeOptions="nm"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:maxLines="1"
+                    android:maxLength="50"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+                <brite.outdoor.ui.widgets.CustomImageButton
+                    android:id="@+id/closeFilter"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/ic_close_save_location"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <TextView
+            app:layout_constraintTop_toTopOf="@id/toolbar"
+            app:layout_constraintBottom_toBottomOf="@id/toolbar"
+            android:id="@+id/tvTitle"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="@string/lblLocationSave"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/clMap"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            
+            <fragment
+                android:id="@+id/fmrMap"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/imgMap"
+                app:layout_constraintTop_toTopOf="@+id/fmrMap"
+                app:layout_constraintBottom_toBottomOf="@+id/fmrMap"
+                app:layout_constraintEnd_toEndOf="@+id/fmrMap"
+                app:layout_constraintStart_toStartOf="@+id/fmrMap"/>
+            <LinearLayout
+                android:background="@drawable/bg_note_location_save"
+                android:padding="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:orientation="vertical"
+                android:id="@+id/clNote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nơi chưa đi"
+                    android:drawablePadding="@dimen/_10sdp"
+                    app:drawableStartCompat="@drawable/ic_marker_flag" />
+                <TextView
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nơi đã đi"
+                    android:drawablePadding="@dimen/_10sdp"
+                    app:drawableStartCompat="@drawable/ic_marker_flag_prepare" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:background="@color/bg_btn_map"
+            android:id="@+id/clBtnShare"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent">
+            <LinearLayout
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/btnshare"
+                android:background="@drawable/bg_btn_share"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_share_24"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18sdp"
+                    android:text="@string/lblShare"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/glW2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.25" />
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/rootBottom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/glW2">
+            <FrameLayout
+                android:id="@+id/bottom_sheet"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_bottom_sheet_location"
+                app:behavior_defaultState="expanded"
+                app:behavior_peekHeight="0dp"
+                app:layout_behavior=".ui.widgets.anchorbottomsheet.AnchorBottomSheetBehavior">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <androidx.core.widget.NestedScrollView
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toTopOf="@id/clBottom"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp">
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <androidx.constraintlayout.widget.Guideline
+                                android:id="@+id/glStartContent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                app:layout_constraintGuide_percent="0.032" />
+
+                            <androidx.constraintlayout.widget.Guideline
+                                android:id="@+id/glEndContent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                app:layout_constraintGuide_percent="0.968" />
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/imgContent"
+                                android:scaleType="centerCrop"
+                                app:layout_constraintTop_toTopOf="parent"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"/>
+                            <brite.outdoor.ui.widgets.ProgressView
+                                android:id="@+id/progress"
+                                app:layout_constraintEnd_toEndOf="@+id/imgContent"
+                                app:layout_constraintStart_toStartOf="@+id/imgContent"
+                                app:layout_constraintTop_toTopOf="@+id/imgContent"
+                                app:layout_constraintBottom_toBottomOf="@+id/imgContent"
+                                android:visibility="visible"
+                                android:src="@drawable/loading"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                app:frameCount="12"
+                                app:duration="800"/>
+                            <TextView
+                                android:id="@+id/tvNameLocation"
+                                android:tag="binding_1"                    
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:textSize="@dimen/_13sdp"
+                                android:textColor="@color/colorBlack2"
+                                android:textStyle="bold"
+                                app:layout_constraintTop_toBottomOf="@id/imgContent"
+                                app:layout_constraintStart_toStartOf="@id/glStartContent"
+                                app:layout_constraintEnd_toEndOf="@id/glEndContent"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"/>
+                            <TextView
+                                android:id="@+id/tvContent"
+                                android:tag="binding_2"             
+                                android:textColor="@color/grey_600"
+                                android:textSize="@dimen/_11sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                app:layout_constraintTop_toBottomOf="@id/tvNameLocation"
+                                app:layout_constraintStart_toStartOf="@id/glStartContent"
+                                app:layout_constraintEnd_toEndOf="@id/glEndContent"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"/>
+                            <View
+                                android:id="@+id/viewLineBottom"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                app:layout_constraintTop_toBottomOf="@id/tvContent"
+                                android:background="@color/grey_100"
+                                app:layout_constraintStart_toStartOf="@id/glStartContent"
+                                app:layout_constraintEnd_toEndOf="@id/glEndContent"
+                                android:layout_width="0dp"
+                                android:layout_height="1dp"/>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.core.widget.NestedScrollView>
+                    <LinearLayout
+                        android:id="@+id/clBottom"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_20sdp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:orientation="horizontal"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/tvPlan"
+                            android:background="@drawable/bg_textview_bottom_sheet_location_save"
+                            android:drawablePadding="@dimen/_10sdp"
+                            android:paddingEnd="@dimen/_10sdp"
+                            android:paddingStart="@dimen/_10sdp"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:textColor="@drawable/bg_text_color_bottom_sheet_location_save"
+                            android:textSize="@dimen/_11sdp"
+                            android:text="@string/str_make_a_plan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:drawableStartCompat="@drawable/bg_ic_plan_selector" />
+                        <TextView
+                            android:id="@+id/tvDelete"
+                            android:background="@drawable/bg_textview_bottom_sheet_location_save"
+                            android:drawablePadding="@dimen/_10sdp"
+                            android:paddingEnd="@dimen/_10sdp"
+                            android:paddingStart="@dimen/_10sdp"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:textColor="@drawable/bg_text_color_bottom_sheet_location_save"
+                            android:text="@string/lblDelete"
+                            android:visibility="gone"
+                            android:textSize="@dimen/_11sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:drawableStartCompat="@drawable/bg_ic_trash_selector" />
+                    </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </FrameLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcView"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:background="@drawable/bg_recycler_view_location_save"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_height="wrap_content"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

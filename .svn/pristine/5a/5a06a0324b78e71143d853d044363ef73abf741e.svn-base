@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <import type="android.view.View"/>
+        <variable
+            name="mViewModel"
+            type="brite.outdoor.viewmodel.CommentQuestionViewModel" />
+    </data>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/rootView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@color/white"
+            android:clickable="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clTopNav"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:elevation="6dp">
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/glStartTopNavButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.032" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/glEndTopNavButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.968" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/glEndToolBarContent"
+                    app:layout_constraintGuide_percent="0.968"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+                <brite.outdoor.ui.widgets.CustomImageButton
+                    android:id="@+id/imgBack"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@id/glStartTopNavButton"
+                    android:src="@drawable/ic_back_question"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <brite.outdoor.utils.AutoShrinkTextView
+                    android:id="@+id/tvTopNavTitle"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/lblCommentVn"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/glStartContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.032" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/glEndContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.968" />
+
+            <include
+                android:id="@+id/layoutQuestion"
+                layout="@layout/item_frequent_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintTop_toBottomOf="@id/clTopNav" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcView"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                tools:listitem="@layout/item_comment_question"
+                app:layout_constraintStart_toStartOf="@id/glStartContent"
+                app:layout_constraintEnd_toEndOf="@id/glEndContent"
+                app:layout_constraintTop_toBottomOf="@id/layoutQuestion"
+                app:layout_constraintBottom_toTopOf="@id/clEdtSendComment"
+                android:layout_height="0dp"/>
+
+            <ImageView
+                android:id="@+id/btnImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/add_image"
+                app:layout_constraintTop_toTopOf="@id/clEdtSendComment"
+                app:layout_constraintBottom_toBottomOf="@+id/clEdtSendComment"
+                app:layout_constraintStart_toStartOf="@id/glStartContent"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/btnSeeMoreComment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="@{mViewModel.isShowSeeMoreComment ? View.VISIBLE : View.GONE}"
+                app:layout_constraintEnd_toEndOf="@id/glEndContent"
+                app:layout_constraintBottom_toTopOf="@+id/clEdtSendComment"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp">
+                <ImageView
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:id="@+id/imgIcArrowDownComment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="@+id/tvSeeMoreComment"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvSeeMoreComment"
+                    android:src="@drawable/ic_baseline_keyboard_arrow_down_24"/>
+
+                <TextView
+                    android:id="@+id/tvSeeMoreComment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="@string/lblSeeMoreComment"
+                    android:textColor="@color/colorDate"
+                    app:layout_constraintEnd_toStartOf="@+id/imgIcArrowDownComment"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clEdtSendComment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_edt_sent_comment"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/layoutSend"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginBottom="12dp"
+                app:layout_constraintStart_toEndOf="@+id/btnImage">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/clImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:visibility="gone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        app:layout_constraintTop_toTopOf="parent"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:id="@+id/imgView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        tools:ignore="MissingConstraints"
+                        app:setImagePicker="@{mViewModel.imagePickerComment}"/>
+                    <brite.outdoor.ui.widgets.CustomImageButton
+                        android:id="@+id/btnCloseImage"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:src="@drawable/ic_close_dialog_save_push_post"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <EditText
+                    android:id="@+id/edtContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="@{mViewModel.edtHint}"
+                    android:text="@={mViewModel.contentPost}"
+                    app:limitLineEdt="@{mViewModel.contentPost}"
+                    android:inputType="textNoSuggestions|textMultiLine"
+                    android:lines="10"
+                    android:maxEms="10"
+                    android:maxLines="5"
+                    android:minLines="1"
+                    android:maxLength="250"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingTop="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:privateImeOptions="nm"
+                    android:textSize="@dimen/_11sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/clImageView"
+                    app:layout_constraintHorizontal_bias="0.0" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/layoutSend"
+                android:background="@color/colorWhite"
+                app:layout_constraintEnd_toEndOf="@id/glEndContent"
+                app:layout_constraintTop_toTopOf="@id/clEdtSendComment"
+                app:layout_constraintBottom_toBottomOf="@id/clEdtSendComment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:lengthText="@{mViewModel.lengthContent}"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:textSize="@dimen/_11sdp"
+                    android:textColor="@color/grey_400"
+                    app:layout_constraintBottom_toTopOf="@id/imgSend"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:id="@+id/imgSend"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:setSelectedImageViewSend="@{mViewModel.isSelectedSend}"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <brite.outdoor.ui.widgets.SwipeToHideLayout
+            android:background="@color/white"
+            android:visibility="invisible"
+            android:id="@+id/layout_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom"
+            app:direction="bottom">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/glStart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.032" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/glEnd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.968" />
+                <View
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:id="@+id/closeRcViewImage"
+                    android:layout_gravity="center"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:background="@color/colorDate"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_3sdp"
+                    tools:ignore="MissingConstraints" />
+                <androidx.recyclerview.widget.RecyclerView
+                    app:layout_constraintEnd_toEndOf="@id/glEnd"
+                    app:layout_constraintStart_toStartOf="@id/glStart"
+                    app:layout_constraintTop_toBottomOf="@id/closeRcViewImage"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginTop="20dp"
+                    android:visibility="visible"
+                    android:longClickable="true"
+                    android:id="@+id/rcViewImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </brite.outdoor.ui.widgets.SwipeToHideLayout>
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "262759372139",
+    "project_id": "outdoor-21dfc",
+    "storage_bucket": "outdoor-21dfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262759372139:android:51c4760d8384a89525a82e",
+        "android_client_info": {
+          "package_name": "brite.outdoor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262759372139-589ac8ogass4k69s52lsehhl790gjvdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "brite.outdoor",
+            "certificate_hash": "89bce20cf61ffdd6dab5020ae99ab62e7da616bc"
+          }
+        },
+        {
+          "client_id": "262759372139-6b94033p7qgkt5a07vnj6vq2b95vtitq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "brite.outdoor",
+            "certificate_hash": "a4f9ab59002ea51a4b3a3a742ff8f84e694a2a66"
+          }
+        },
+        {
+          "client_id": "262759372139-o2vboq3944dk1db6spu46o9gn8ogud0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLM50erRg5uh0Y2-brPOZY_8cYUZ0xQr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262759372139-o2vboq3944dk1db6spu46o9gn8ogud0e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "262759372139-q49olrsuidelv34unotrn2t9mss5udb3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "brite.outdoor"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

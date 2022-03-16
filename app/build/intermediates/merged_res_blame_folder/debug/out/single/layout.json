@@ -1,0 +1,486 @@
+[
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_pick_camera.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_pick_camera.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_report.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_report.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/act_main_new.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/act_main_new.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_comment_question.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_comment_question.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_select_place.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_select_place.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_notice.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/dialog_notice.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_map.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_map.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_error.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/dialog_error.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_pick_image.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_pick_image.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_select_utensils.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_select_utensils.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_setting.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_setting.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_search_with_user.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_search_with_user.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_home_focus.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_home_focus.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_list_place.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_list_place.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/act_media.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/act_media.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_media_video.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_media_video.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_reminder.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/dialog_reminder.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_personal_page.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_personal_page.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_my_book_mart.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_my_book_mart.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_frm_report.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/dialog_frm_report.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_search_user_shimmer_placerholder.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_search_user_shimmer_placerholder.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_reply_comment_hot_news.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_reply_comment_hot_news.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_selected_utensils.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/dialog_selected_utensils.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_comment.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_comment.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_list_push.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_list_push.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_intro.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_intro.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_video.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_video.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_spinner.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_spinner.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_comment_question.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_comment_question.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_exit.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/dialog_exit.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/act_main.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/act_main.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_news_shimmer_placeholder.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_news_shimmer_placeholder.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_location_save.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_location_save.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_people_interactive.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_people_interactive.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_hot_news.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_hot_news.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_hot_news.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_hot_news.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_image_content_block.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_image_content_block.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_delete.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/dialog_delete.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_news.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_news.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_detail.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_detail.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/exo_player_control_view.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/exo_player_control_view.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_edit_block_post.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_edit_block_post.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_select_places.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_select_places.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_search_with_locate_or_tool.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_search_with_locate_or_tool.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_location_or_untensil_shimmer_placerholder.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_location_or_untensil_shimmer_placerholder.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_news_ver2.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_news_ver2.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_search_ver2.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_search_ver2.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_comment.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/layout_comment.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_list_post_location.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_list_post_location.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/popop_un_save.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/popop_un_save.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_image_pager.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_image_pager.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_info_window_google_map.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/layout_info_window_google_map.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_pick_image.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_pick_image.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_dialog_bottom_item_frmhome.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/layout_dialog_bottom_item_frmhome.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/act_camera.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/act_camera.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_comment_reply.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/layout_comment_reply.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_reply_comment_question.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_reply_comment_question.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_notify.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/dialog_notify.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_search_location.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_search_location.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_bookmart_shimmer_placeholder.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_bookmart_shimmer_placeholder.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_question_shimmer_placeholder.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_question_shimmer_placeholder.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_search_user.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_search_user.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_book_mark.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_book_mark.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_comment_hot_news.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/layout_comment_hot_news.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_list_people_interactive.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_list_people_interactive.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_page_image.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_page_image.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_question.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_question.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_camera.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_camera.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_commnet_hot_news.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_commnet_hot_news.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_api_load_failed.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/layout_api_load_failed.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_push_posts.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_push_posts.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_edit_question.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_edit_question.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_search_utensils.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_search_utensils.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_place.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_place.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_notification_shimmer_placeholder.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_notification_shimmer_placeholder.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_list_post_location.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_list_post_location.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_pick_image_new.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_pick_image_new.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_image.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_image.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_my_page.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_my_page.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_home_follow.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_home_follow.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_share.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/dialog_share.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_language.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_language.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_notification.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_notification.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_login.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_login.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_mypage_shimmer_placeholder.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_mypage_shimmer_placeholder.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_intro.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_intro.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_posts_saves.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_posts_saves.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_bottom_navigation_home.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/layout_bottom_navigation_home.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/progress_dialog_loading.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/progress_dialog_loading.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_home.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_home.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_warning_push_post.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/dialog_warning_push_post.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_media_image.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_media_image.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_save_push_post.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/dialog_save_push_post.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_preview.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_preview.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_frequent_question.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_frequent_question.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_push_post_content.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_push_post_content.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_welcome.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_welcome.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_interactive.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/layout_interactive.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_my_post.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_my_post.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_mypost_shimmer_placeholder.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_mypost_shimmer_placeholder.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_location_new.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_location_new.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_content_detail.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_content_detail.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_notification.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_notification.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layour_image_picked_preview.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/layour_image_picked_preview.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_two_choose.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/dialog_two_choose.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_api_load_failed_home.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/layout_api_load_failed_home.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_location_save.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_location_save.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_my_post.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_my_post.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_reply_comment.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_reply_comment.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_cancel.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/dialog_cancel.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_map_new.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_map_new.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_popup_play_video_detail.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/layout_popup_play_video_detail.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_success.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/dialog_success.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_save_question.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_save_question.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_dialog_bottom_item.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/layout_dialog_bottom_item.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_content_detail_hot_news.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_content_detail_hot_news.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_push_posts_new.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_push_posts_new.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_push_post_content_new.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_push_post_content_new.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_frequent_question.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_frequent_question.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_my_page.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/item_my_page.xml"
+    },
+    {
+        "merged": "/Users/ducnv1106/Desktop/outdoor/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/frm_home_news.xml",
+        "source": "/Users/ducnv1106/Desktop/outdoor/app/src/main/res/layout/frm_home_news.xml"
+    }
+]

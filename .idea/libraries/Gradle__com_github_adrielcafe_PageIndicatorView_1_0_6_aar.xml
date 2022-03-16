@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.adrielcafe:PageIndicatorView:1.0.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af9ada0e00da762bad0594959799ad05/jetified-PageIndicatorView-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af9ada0e00da762bad0594959799ad05/jetified-PageIndicatorView-1.0.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af9ada0e00da762bad0594959799ad05/jetified-PageIndicatorView-1.0.6/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.adrielcafe/PageIndicatorView/1.0.6/5ff24e63392403ee11c9f239c6a6523100e11fed/PageIndicatorView-1.0.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.adrielcafe/PageIndicatorView/1.0.6/d1765d139459d6eb2a7f0e5f30fa628c6e7c7bd8/PageIndicatorView-1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
